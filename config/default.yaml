@@ -1,0 +1,22 @@
+# Template map - 
+#   This is a list of all the config template files and the path to
+#   render them to. Example:
+#
+#  template_map:
+#    my_config.mako: /etc/my_app/my_config.cfg
+#    second_config.mako: /etc/my_other_app/name.conf
+#
+template_map:
+ squid.conf.mako: /etc/squid3/squid.conf
+
+# Max size of cache in MB
+cache_size: 20000
+
+# List of mirrors - local name -> URL
+# Squid uses name-based resolution to choose the mirror. You will need to setup
+# your local DNS (or edit /etc/hosts) for the names of the mirrors below and
+# point them to the IP address of your docker server 
+mirrors:
+ kernel-mirror: http://mirrors.kernel.org
+ xmission-mirror: http://mirrors.xmission.com
+ advancedhosters-mirror: http://mirrors.advancedhosters.com
