@@ -26,6 +26,11 @@ a local URL for the mirror to use. The hard configuration is done once,
 on one computer, and then all the rest of the computers on your LAN
 get to use it by just choosing the correct mirror URL.
 
+Thank you to [Matt Wagner and his blog post](http://ma.ttwagner.com/lazy-distro-mirrors-with-squid/)
+. I copied most of his squid configuration for this. I also copied 
+the name he used, as I couldn't think of anything better. Being lazy 
+seemed appropriate.
+
 ## Usage
 
 You need docker, install it however you like. [Here's the official docs
