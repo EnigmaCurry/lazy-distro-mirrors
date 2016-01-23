@@ -77,10 +77,12 @@ and restart the container:
 Finally, Squid relies upon name-based resolution to pick the mirror
 you're using. For instance, to use the kernel.org mirror, you'll need
 to go to http://kernel-mirror:8080/ - this is the local URL for that
-mirror. If you have a DNS server running on your router, add that IP
-of your docker container and assign it the name `kernel-mirror`. If
-you don't run your own DNS server, you can also just add it to your
-/etc/hosts file:
+mirror. If you have a DNS server running on your router, add the IP 
+address of your server running docker and assign it the name `kernel-mirror`. 
+If you don't run your own DNS server (I highly recommend [dd-wrt with 
+dnsmasq](http://cybernetnews.com/local-internal-dns-ddwrt/)), you can
+also just add it to your /etc/hosts file, but you'll have to do this 
+on each machine you want to use it with:
 
     127.0.0.1      kernel-mirror xmission-mirror advancedhosters-mirror
 
