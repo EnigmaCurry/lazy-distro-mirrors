@@ -46,7 +46,7 @@ Download and start the docker container:
 
     docker run \
     --name lazy-distro-mirrors \
-    -d --restart=always \ 
+    -d --restart=always \
     --publish 8080:8080 \
     --volume /opt/docker/lazy-distro-mirrors/config:/docker_configurator/user \
     --volume /opt/docker/lazy-distro-mirrors/cache:/var/spool/squid3 \
