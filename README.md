@@ -48,7 +48,7 @@ Download and start the docker container:
     --name lazy-distro-mirrors \
     -d --restart=always \ 
     --publish 8080:8080 \
-    --volume /opt/docker/lazy-distro-mirrors/config:/docker_configurator/ \
+    --volume /opt/docker/lazy-distro-mirrors/config:/docker_configurator/user \
     --volume /opt/docker/lazy-distro-mirrors/cache:/var/spool/squid3 \
     enigmacurry/lazy-distro-mirrors
 
