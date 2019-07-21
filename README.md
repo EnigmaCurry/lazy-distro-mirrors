@@ -49,7 +49,7 @@ Download and start the docker container:
     -d --restart=always \
     --publish 8080:8080 \
     --volume /opt/docker/lazy-distro-mirrors/config:/docker_configurator/user \
-    --volume /opt/docker/lazy-distro-mirrors/cache:/var/spool/squid3 \
+    --volume /opt/docker/lazy-distro-mirrors/cache:/var/spool/squid \
     enigmacurry/lazy-distro-mirrors
 
 Replace with the directory names you chose. Replace the first `8080`

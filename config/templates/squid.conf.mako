@@ -8,7 +8,7 @@ http_port 8080 accel defaultsite=kernel-mirror vhost
 maximum_object_size 4096 MB
 
 # Cache settings
-cache_dir ufs /var/spool/squid3 ${cache_size} 16 256
+cache_dir ufs /var/spool/squid ${cache_size} 16 256
 
 cache_replacement_policy heap LFUDA
 

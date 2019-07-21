@@ -7,7 +7,7 @@
 #    second_config.mako: /etc/my_other_app/name.conf
 #
 template_map:
- squid.conf.mako: /etc/squid3/squid.conf
+ squid.conf.mako: /etc/squid/squid.conf
 
 # Max size of cache in MB
 cache_size: 20000
